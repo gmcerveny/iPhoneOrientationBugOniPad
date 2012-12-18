@@ -18,6 +18,7 @@
 		36B0BC6E1681120600CC4C7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B0BC6D1681120600CC4C7B /* Default-568h@2x.png */; };
 		36B0BC711681120600CC4C7B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B0BC6F1681120600CC4C7B /* MainStoryboard.storyboard */; };
 		36B0BC741681120700CC4C7B /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B0BC731681120700CC4C7B /* AMViewController.m */; };
+		36BEC7B8168125CB00C8EEB3 /* AMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BEC7B7168125CB00C8EEB3 /* AMNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		36B0BC701681120600CC4C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		36B0BC721681120600CC4C7B /* AMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
 		36B0BC731681120700CC4C7B /* AMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
+		36BEC7B6168125CB00C8EEB3 /* AMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMNavigationController.h; sourceTree = "<group>"; };
+		36BEC7B7168125CB00C8EEB3 /* AMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				36B0BC6F1681120600CC4C7B /* MainStoryboard.storyboard */,
 				36B0BC721681120600CC4C7B /* AMViewController.h */,
 				36B0BC731681120700CC4C7B /* AMViewController.m */,
+				36BEC7B6168125CB00C8EEB3 /* AMNavigationController.h */,
+				36BEC7B7168125CB00C8EEB3 /* AMNavigationController.m */,
 				36B0BC5E1681120600CC4C7B /* Supporting Files */,
 			);
 			path = iPadTest;
@@ -177,6 +182,7 @@
 				36B0BC641681120600CC4C7B /* main.m in Sources */,
 				36B0BC681681120600CC4C7B /* AMAppDelegate.m in Sources */,
 				36B0BC741681120700CC4C7B /* AMViewController.m in Sources */,
+				36BEC7B8168125CB00C8EEB3 /* AMNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				GCC_PREFIX_HEADER = "iPadTest/iPadTest-Prefix.pch";
 				INFOPLIST_FILE = "iPadTest/iPadTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,6 +277,7 @@
 				GCC_PREFIX_HEADER = "iPadTest/iPadTest-Prefix.pch";
 				INFOPLIST_FILE = "iPadTest/iPadTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -293,6 +301,7 @@
 				36B0BC791681120700CC4C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
